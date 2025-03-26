@@ -12,6 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Ensure output directory exists
+        run: mkdir -p dist  # ✅ Fix: Ensure dist/ exists before generating files
+
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -23,8 +26,11 @@ jobs:
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v3
         with:
-          name: snake-artifacts
-          path: dist
+          name: github-contribution-grid-snake
+          path: dist/*  # ✅ Fix: Upload both light & dark mode SVGs
+
+      - name: Checkout repository again
+        uses: actions/checkout@v3  # ✅ Fix: Ensure repo is checked out before committing
 
       - name: Commit and Push to Output Branch
         uses: stefanzweifel/git-auto-commit-action@v5
