@@ -1,0 +1,33 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs once daily
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: abhijith2599
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake-animation
+          path: dist/github-contribution-grid-snake.svg
+      - name: Push contribution snake
+        run: |
+          mkdir -p assets
+          mv dist/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.svg
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add assets/github-contribution-grid-snake.svg
+          git commit -m "Updated contribution snake"
+          git push
