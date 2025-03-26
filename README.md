@@ -22,11 +22,11 @@ Hi there! I'm **Abhijith**, a passionate Python Django Full Stack Developer. I l
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 </p
 
-
 ## 🐍 GitHub Contribution Snake  
 <p align="left">
-  <img src="https://github.com/abhijith2599/abhijith2599/raw/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+  <img src="https://raw.githubusercontent.com/abhijith2599/abhijith2599/main/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
 </p>
+
 
 ## 📫 Connect with Me  
 <p align="left">
