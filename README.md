@@ -22,9 +22,6 @@ Hi there! I'm **Abhijith**, a passionate Python Django Full Stack Developer. I l
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 </p>
 
-## 🐍 GitHub Contribution Snake  
-![GitHub Contribution Snake](https://raw.githubusercontent.com/abhijith2599/abhijith2599/output/github-snake.svg)
-
 
 
 ## 📫 Connect with Me  
