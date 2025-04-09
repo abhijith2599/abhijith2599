@@ -33,7 +33,7 @@ Hi there! I'm **Abhijith**, a passionate Python Django Full Stack Developer. I l
 ## 🚀 Featured Projects  
 - 🎬 **Movie Review App** - A Django-based platform for movie reviews. [🔗 GitHub Repo](https://github.com/abhijith2599/PopCorn-Reviews-Web-Application)
 - 📝 **To-Do Application** - A simple yet powerful task management app built with Django. [🔗 GitHub Repo](https://github.com/abhijith2599/ToDo-Web-Application)
-- 💰 **Splitwise Clone** - A Django app for managing shared expenses. [🔗 GitHub Repo](https://github.com/YourGitHubUsername/SplitwiseClone)
+- 💰 **Splitwise Clone** - A Django app for managing shared expenses. [🔗 GitHub Repo](https://github.com/abhijith2599/Splitwise-Clone-WEB_APP)
 
 
 
